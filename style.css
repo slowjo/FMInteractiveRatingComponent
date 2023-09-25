@@ -40,6 +40,10 @@ body {
     position: relative;
 }
 
+.container {
+    padding-top: 5px;
+}
+
 main {
     background-color: hsla(var(--dark-blue-h), var(--dark-blue-s), var(--dark-blue-l), 0.6);
     padding: 24px;
@@ -47,6 +51,10 @@ main {
     border-radius: 14px;
     max-width: 412px;
     margin-inline: auto;
+
+    /* position: absolute;
+    top: calc(50% + 5px);
+    transform: translateY(-50%); */
 }
 
 .round {
